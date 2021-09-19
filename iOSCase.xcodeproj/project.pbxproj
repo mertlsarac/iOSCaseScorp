@@ -15,6 +15,22 @@
 		2662EEDF26F6635E007184DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662EEDD26F6635E007184DA /* LaunchScreen.storyboard */; };
 		2662EEEA26F6635E007184DA /* iOSCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EEE926F6635E007184DA /* iOSCaseTests.swift */; };
 		2662EEF526F6635E007184DA /* iOSCaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EEF426F6635E007184DA /* iOSCaseUITests.swift */; };
+		2662EF0626F665BD007184DA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF0526F665BD007184DA /* DataSource.swift */; };
+		2662EF0926F666A3007184DA /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF0826F666A3007184DA /* PeopleViewController.swift */; };
+		2662EF0B26F666B3007184DA /* PeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF0A26F666B3007184DA /* PeopleInteractor.swift */; };
+		2662EF0D26F666C3007184DA /* PeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF0C26F666C3007184DA /* PeoplePresenter.swift */; };
+		2662EF0F26F666DB007184DA /* PeopleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF0E26F666DB007184DA /* PeopleEntity.swift */; };
+		2662EF1126F666E7007184DA /* PeopleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF1026F666E7007184DA /* PeopleRouter.swift */; };
+		2662EF1326F6671E007184DA /* People.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662EF1226F6671E007184DA /* People.storyboard */; };
+		2662EF1926F66CD2007184DA /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF1826F66CD2007184DA /* Storyboard.swift */; };
+		2662EF1C26F67450007184DA /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF1B26F67450007184DA /* PeopleTableViewCell.swift */; };
+		2662EF1F26F677D0007184DA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF1E26F677D0007184DA /* Result.swift */; };
+		2662EF2126F68441007184DA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF2026F68441007184DA /* UIViewController.swift */; };
+		2662EF2626F69015007184DA /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF2526F69015007184DA /* UILabel.swift */; };
+		2662EF2A26F69135007184DA /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF2926F69135007184DA /* UIButton.swift */; };
+		2662EF2C26F69B05007184DA /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF2B26F69B05007184DA /* UIRefreshControl.swift */; };
+		2662EF2E26F69E2E007184DA /* PeopleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF2D26F69E2E007184DA /* PeopleManager.swift */; };
+		2662EF3026F6A5A7007184DA /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2662EF2F26F6A5A7007184DA /* TimerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,22 @@
 		2662EEF026F6635E007184DA /* iOSCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2662EEF426F6635E007184DA /* iOSCaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCaseUITests.swift; sourceTree = "<group>"; };
 		2662EEF626F6635E007184DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2662EF0526F665BD007184DA /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		2662EF0826F666A3007184DA /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeopleViewController.swift; path = ../../../../Desktop/PeopleViewController.swift; sourceTree = "<group>"; };
+		2662EF0A26F666B3007184DA /* PeopleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeopleInteractor.swift; path = ../../../../Desktop/PeopleInteractor.swift; sourceTree = "<group>"; };
+		2662EF0C26F666C3007184DA /* PeoplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeoplePresenter.swift; path = ../../../../Desktop/PeoplePresenter.swift; sourceTree = "<group>"; };
+		2662EF0E26F666DB007184DA /* PeopleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeopleEntity.swift; path = ../../../../Desktop/PeopleEntity.swift; sourceTree = "<group>"; };
+		2662EF1026F666E7007184DA /* PeopleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeopleRouter.swift; path = ../../../../Desktop/PeopleRouter.swift; sourceTree = "<group>"; };
+		2662EF1226F6671E007184DA /* People.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = People.storyboard; path = ../../../../Desktop/People.storyboard; sourceTree = "<group>"; };
+		2662EF1826F66CD2007184DA /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Storyboard.swift; path = ../../../Desktop/Storyboard.swift; sourceTree = "<group>"; };
+		2662EF1B26F67450007184DA /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeopleTableViewCell.swift; path = ../../../../../Desktop/PeopleTableViewCell.swift; sourceTree = "<group>"; };
+		2662EF1E26F677D0007184DA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../../../Desktop/Result.swift; sourceTree = "<group>"; };
+		2662EF2026F68441007184DA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = ../../../Desktop/UIViewController.swift; sourceTree = "<group>"; };
+		2662EF2526F69015007184DA /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = ../../../Desktop/UILabel.swift; sourceTree = "<group>"; };
+		2662EF2926F69135007184DA /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = ../../../Desktop/UIButton.swift; sourceTree = "<group>"; };
+		2662EF2B26F69B05007184DA /* UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIRefreshControl.swift; path = ../../../Desktop/UIRefreshControl.swift; sourceTree = "<group>"; };
+		2662EF2D26F69E2E007184DA /* PeopleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeopleManager.swift; path = ../../../Desktop/PeopleManager.swift; sourceTree = "<group>"; };
+		2662EF2F26F6A5A7007184DA /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerManager.swift; path = ../../../Desktop/TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +131,14 @@
 		2662EED126F6635C007184DA /* iOSCase */ = {
 			isa = PBXGroup;
 			children = (
-				2662EED226F6635C007184DA /* AppDelegate.swift */,
-				2662EED426F6635C007184DA /* SceneDelegate.swift */,
+				2662EF1D26F677C3007184DA /* Utils */,
+				2662EF1726F66CC1007184DA /* Extensions */,
+				2662EF1426F66A29007184DA /* Application */,
+				2662EF0226F6656C007184DA /* Scenes */,
 				2662EED626F6635C007184DA /* ViewController.swift */,
 				2662EED826F6635C007184DA /* Main.storyboard */,
 				2662EEDB26F6635E007184DA /* Assets.xcassets */,
 				2662EEDD26F6635E007184DA /* LaunchScreen.storyboard */,
-				2662EEE026F6635E007184DA /* Info.plist */,
 			);
 			path = iOSCase;
 			sourceTree = "<group>";
@@ -126,6 +159,85 @@
 				2662EEF626F6635E007184DA /* Info.plist */,
 			);
 			path = iOSCaseUITests;
+			sourceTree = "<group>";
+		};
+		2662EF0226F6656C007184DA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2662EF0726F6667B007184DA /* People */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2662EF0726F6667B007184DA /* People */ = {
+			isa = PBXGroup;
+			children = (
+				2662EF1A26F673D8007184DA /* View */,
+				2662EF0826F666A3007184DA /* PeopleViewController.swift */,
+				2662EF0A26F666B3007184DA /* PeopleInteractor.swift */,
+				2662EF0C26F666C3007184DA /* PeoplePresenter.swift */,
+				2662EF0E26F666DB007184DA /* PeopleEntity.swift */,
+				2662EF1026F666E7007184DA /* PeopleRouter.swift */,
+				2662EF1226F6671E007184DA /* People.storyboard */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		2662EF1426F66A29007184DA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2662EF1626F66A4A007184DA /* Configuration */,
+				2662EF1526F66A34007184DA /* AppDelegate */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2662EF1526F66A34007184DA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2662EED226F6635C007184DA /* AppDelegate.swift */,
+				2662EED426F6635C007184DA /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2662EF1626F66A4A007184DA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2662EEE026F6635E007184DA /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2662EF1726F66CC1007184DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2662EF1826F66CD2007184DA /* Storyboard.swift */,
+				2662EF2026F68441007184DA /* UIViewController.swift */,
+				2662EF2526F69015007184DA /* UILabel.swift */,
+				2662EF2926F69135007184DA /* UIButton.swift */,
+				2662EF2B26F69B05007184DA /* UIRefreshControl.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2662EF1A26F673D8007184DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2662EF1B26F67450007184DA /* PeopleTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2662EF1D26F677C3007184DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2662EF1E26F677D0007184DA /* Result.swift */,
+				2662EF0526F665BD007184DA /* DataSource.swift */,
+				2662EF2D26F69E2E007184DA /* PeopleManager.swift */,
+				2662EF2F26F6A5A7007184DA /* TimerManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2662EEDF26F6635E007184DA /* LaunchScreen.storyboard in Resources */,
+				2662EF1326F6671E007184DA /* People.storyboard in Resources */,
 				2662EEDC26F6635E007184DA /* Assets.xcassets in Resources */,
 				2662EEDA26F6635C007184DA /* Main.storyboard in Resources */,
 			);
@@ -258,9 +371,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2662EF0926F666A3007184DA /* PeopleViewController.swift in Sources */,
+				2662EF0B26F666B3007184DA /* PeopleInteractor.swift in Sources */,
+				2662EF0D26F666C3007184DA /* PeoplePresenter.swift in Sources */,
 				2662EED726F6635C007184DA /* ViewController.swift in Sources */,
 				2662EED326F6635C007184DA /* AppDelegate.swift in Sources */,
+				2662EF2E26F69E2E007184DA /* PeopleManager.swift in Sources */,
+				2662EF2A26F69135007184DA /* UIButton.swift in Sources */,
+				2662EF0626F665BD007184DA /* DataSource.swift in Sources */,
+				2662EF1F26F677D0007184DA /* Result.swift in Sources */,
+				2662EF2126F68441007184DA /* UIViewController.swift in Sources */,
+				2662EF1926F66CD2007184DA /* Storyboard.swift in Sources */,
 				2662EED526F6635C007184DA /* SceneDelegate.swift in Sources */,
+				2662EF2626F69015007184DA /* UILabel.swift in Sources */,
+				2662EF1126F666E7007184DA /* PeopleRouter.swift in Sources */,
+				2662EF1C26F67450007184DA /* PeopleTableViewCell.swift in Sources */,
+				2662EF3026F6A5A7007184DA /* TimerManager.swift in Sources */,
+				2662EF0F26F666DB007184DA /* PeopleEntity.swift in Sources */,
+				2662EF2C26F69B05007184DA /* UIRefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +565,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSCase/Info.plist;
+				INFOPLIST_FILE = /Users/mertsarac/iOSCaseScorp/iOSCase/Application/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSCase/Info.plist;
+				INFOPLIST_FILE = /Users/mertsarac/iOSCaseScorp/iOSCase/Application/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
